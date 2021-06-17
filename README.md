@@ -21,10 +21,10 @@ For more detail check it out here :- <a href="https://www.freecodecamp.org/news/
  ## Output :-
  
  On Laptop
-  <img src="Output/laptop.png" alt="screenshot on laptop" width="50%" height="50%" >
+ <br><img src="Output/laptop.png" alt="screenshot on laptop" width="50%" height="50%" >
 
 On Smartphone
-   <img src="Output/phone.png" alt="screenshot on mobile" width="20%" height="30%" >
+  <br><img src="Output/phone.png" alt="screenshot on mobile" width="20%" height="20%" >
  
 ## Issues & Improvements :- 
 - Firebase will be integrated soon for storing data, so that user can access the data from anywhere through internet.
