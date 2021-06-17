@@ -17,6 +17,14 @@ For more detail check it out here :- <a href="https://www.freecodecamp.org/news/
 - It allows you to store your expense records and view them whenever required.
 - Your data will be saved onto the local storage, so even if you close the tab or browser your data won't get lost.
 - Super simple and easy to use.
+
+ ## Output :- 
+ 
+![Output](Output/laptop.png)
+On Laptop
+
+![Output](Output/.png)
+On Smartphone
  
 ## Issues & Improvements :- 
 - Firebase will be integrated soon for storing data, so that user can access the data from anywhere through internet.
