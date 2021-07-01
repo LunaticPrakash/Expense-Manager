@@ -94,7 +94,7 @@ body{
 @media(max-width:800px){
     .expenseitem__date{
         padding: 0.5rem;
-        width: 2.1rem;
+        width: 2rem;
     }
 
     .expenseitem__date_month, .expenseitem__date_year{
@@ -107,15 +107,15 @@ body{
     }
 
     .expenseitem__title{
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-left: 2rem;
         text-align: left;
         font-weight: bold;
     }
 
     .expenseitem__amount{
-        font-size: 1.1rem;
-        width: 3rem;
+        font-size: 1rem;
+        width: 2rem;
         margin-left: 5%;
         flex: 0 0 0.3;
     }
