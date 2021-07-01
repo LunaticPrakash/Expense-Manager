@@ -71,6 +71,10 @@ body{
     color: #CCCCCC;
 }
 
+.expenseitem__edit option{
+    font-weight: bold;
+}
+
 .expenseitem__edit:focus{
     cursor: pointer;
     border-radius: 0px;
@@ -116,11 +120,15 @@ body{
         flex: 0 0 0.3;
     }
 
-    .expenseitem__modify{
-        margin-right: 1%;
-        font-size: 0.8rem;
+    .expenseitem__edit{
+        font-size: 0.7rem;
     }
 
+    .expenseitem__modify{
+        margin-right: 1%;
+        font-size: 0.7rem;
+    }
+    
     .expenseitem__delete{
         margin-left: 0.5rem;
     }

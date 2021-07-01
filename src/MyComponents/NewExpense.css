@@ -3,6 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.new_expense__heading{
+    margin: 20px auto;
+}
 
 .new_expense__container{
     color: #CCCCCC;
