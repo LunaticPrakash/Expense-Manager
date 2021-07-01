@@ -10,8 +10,8 @@ body{
     border: 2px solid black;
     border-radius: 12px;
     width: 60%;
-    margin: auto;
-    padding: 2px 5px;
+    margin: 0px auto;
+    padding: 0px 5px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +36,7 @@ label {
     width: 130px;
     text-align: left;
     font-size: 1.4rem;
+    margin-left: 3%;
 }
 
 #new_expense__btn_submit{
@@ -43,6 +44,7 @@ label {
     border-radius: 9px;
     padding: 8px 18px;
     font-size: 1rem;
+    margin-top: 3%;
 }
 
 @media (max-width:800px) {

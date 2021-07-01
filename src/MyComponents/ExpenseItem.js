@@ -16,29 +16,18 @@ function ExpenseItem(props) {
         console.log("effect()");
     }, [])
 
-    // const onEditClick = (attr) => {
-    //     const newValue = prompt("Enter new " + attr);
-    //     if (newValue) {
-    //         if (attr === "title")
-    //             setTitle(newValue);
-    //         else if (attr === "amount")
-    //             setAmount(newValue);
-    //         props.editFun(props.expense.expID, attr, newValue);
-    //     }
-    // };
-
-    const onEditClick = () => {
-        const newTitle = prompt("Enter new title");
-        if (newTitle) {
-                setTitle(newTitle)
-                props.editFun(props.expense.expID, "title", newTitle);
+    const onEditClick = (event) => {
+        const attr = event.target.value;
+        const newValue = prompt("Enter new " + attr);
+        if (newValue) {
+            if (attr === "title")
+                setTitle(newValue);
+            else if (attr === "amount")
+                setAmount(newValue);
+            props.editFun(props.expense.expID, attr, newValue);
         }
 
-        const newAmount = prompt("Enter new amount");
-        if (newAmount) {
-                setAmount(newAmount)
-                props.editFun(props.expense.expID, "amount", newAmount);
-        }
+        document.getElementById("drop-down-edit").selectedIndex = 0;
     };
 
     const onDeleteClick = (event) => {
@@ -60,12 +49,12 @@ function ExpenseItem(props) {
             <div className="expenseitem__title">{title}</div>
             <div className="expenseitem__amount">{"₹ " + amount}</div>
             <div className="expenseitem__modify">
-                <div className="expenseitem__edit" onClick={onEditClick}>Edit</div>
-                {/* <select className="expenseitem__edit" onChange={handleChange}>
-                    <option value="" selected disabled hidden>Edit</option>
+                {/* <div className="expenseitem__edit" onClick={onEditClick}>Edit</div> */}
+                <select id="drop-down-edit" className="expenseitem__edit" onChange={onEditClick}>
+                    <option id="default-drop" value="" selected disabled hidden>Edit</option>
                     <option value="title">Title</option>
                     <option value="amount">Amount</option>
-                </select> */}
+                </select>
                 <div className="expenseitem__delete" onClick={onDeleteClick}>Delete</div>
             </div>
         </div>
