@@ -46,6 +46,7 @@ function NewExpense(props) {
 
     return (
         <div className="new_expense__container">
+            <h1>Hello</h1>
             <h3 className="new_expense__heading">Add Expense</h3>
             <form onSubmit={formSubmitHandler} className="new_expense__form">
                 <div className="new_expense__title">
