@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "expense-manager-bb35f",
+    "expense-manager": "expense-manager-bb35f"
+  },
+  "targets": {}
+}

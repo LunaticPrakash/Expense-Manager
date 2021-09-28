@@ -26,11 +26,11 @@ body{
     border: 1px solid black;
     border-radius: 8px;
     padding: 0.5rem;
-    width: 3rem;
+    width: 3.5rem;
 }
 
 .expenseitem__date_month, .expenseitem__date_year{
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     font-weight: 550;
 }
 
