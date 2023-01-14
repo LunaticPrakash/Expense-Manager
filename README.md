@@ -21,10 +21,10 @@ For more detail check it out here :- <a href="https://www.freecodecamp.org/news/
  ## Output :-
  
  On Laptop
- <br><br><img src="Output/laptop.png" alt="screenshot on laptop" width="60%" height="55%" >
+ <br><br><img src="https://user-images.githubusercontent.com/56812557/212475614-dc673553-fdd5-40e2-b902-9c98c3e643fe.png" alt="screenshot on laptop" width="60%" height="55%" >
 
 On Smartphone
-  <br><br><img src="Output/phone.png" alt="screenshot on mobile" width="18%" height="18%" >
+  <br><br><img src="https://user-images.githubusercontent.com/56812557/212475623-fb177494-fb8e-4a5d-acf9-48ff10bf6a97.png" alt="screenshot on mobile" width="18%" height="18%" >
  
 ## Issues & Improvements :- 
 - Firebase will be integrated soon for storing data, so that user can access the data from anywhere through internet.
